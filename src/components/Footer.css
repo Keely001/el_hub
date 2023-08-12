@@ -1,0 +1,16 @@
+.footer{
+    display: block;
+    text-align: center;
+}
+.f_part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 100px
+}
+
+.f_part img{
+    width: 29px;
+    color: #F2BE22;
+
+}

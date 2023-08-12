@@ -1,0 +1,66 @@
+header{
+    margin: 0;
+    color: black;
+}
+header .upper_ribbon{
+    background-color: #F0DE36;
+    padding: 6px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.r_part1{
+    margin: 0 15px;
+    
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 10px
+}
+.middle_ribbon{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 20px;
+}
+
+.middle_ribbon .logo{
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.middle_ribbon .logo img{
+    width: 60px;
+
+}
+.middle_ribbon .searchBar{
+    border: #F0DE36 2px solid;
+    width: 200px;
+}
+.middle_ribbon .searchButton{
+    border: #F0DE36 2px solid;
+    background-color: #F0DE36;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+.middle_ribbon .searchIcons{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    border-radius: 5px;
+}
+.middle_ribbon .searchIcons .icons{
+    color: #F2BE22;
+    padding: 2px;
+    font-size: 22px;
+}
+
+.middle_ribbon .searchIcons .iconsTotal{
+    font-size: 13px;
+}
