@@ -1,0 +1,39 @@
+.card{
+    display: flex;
+    padding: 5px;
+    background-color: #B9B4C7;
+    margin: 10px 50px;
+    width: 300px;
+    height: 160px;
+}
+.card .left_s{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.card .left_s p:nth-child(1){
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.card .left_s p:nth-child(2){
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.card .left_s p:nth-child(3){
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.card .left_s p:nth-child(3) span{
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.card .right_s img{
+    
+    left: auto;
+    right: auto;
+    width: 150px;
+    margin: 0rem;
+}

@@ -1,0 +1,37 @@
+.promoArea{
+    background:url("../../public/assets/images/Promo.jpeg") no-repeat bottom ;
+    margin: 1rem 2rem;
+    height: 40vh;
+    width: 100%;
+}
+.leftSide{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem ;
+    justify-content: center;
+    text-align: center;
+}
+.leftSide .fst_part{
+    font-size: 2rem;
+    font-weight: 100;
+}
+.leftSide .scd_part{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.leftSide .thd_part span{
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 700;
+}
+.leftSide .btn{
+    width: 40%;
+    margin: 0 auto;
+    background-color: #F0DE36;
+    border: 2px solid #F0DE36;
+    border-radius: 20px;
+}
